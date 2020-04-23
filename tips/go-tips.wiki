@@ -1,0 +1,15 @@
+How to import a project
+
+- With existed go.mod. 
+    . Run go mod vendor
+    . Then open by intellij and enable go module integration
+- Without existed go.mod
+    . go mod init
+    . Run go mod vendor
+    . Then open by intellij and enable go mobule integration
+
+
+=MarshalJSON UnmarshalJSON=
+rewrite when need to change the way read data([]bytes) into
+
+
