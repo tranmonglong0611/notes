@@ -1,13 +1,17 @@
-=clusterIndex vs nonClusterIndex: =
+#clusterIndex vs nonClusterIndex: 
     * clusterIndex: the row in the table is ordered in the disk same as the way it is ordered in the index data structure. Can have only 1 clusterIndex
-    * nonClusterIndex: the row in the table is no need ordered in the disk like in the index => can have many nonClusteredIndex
+     
+    * nonClusterIndex: the row in the table is no need ordered in the disk like 
+     in the index => can have many nonClusteredIndex
 
 =Key=
-    * primaryKey: is 1/many column in a table which must contain a unique value which can be used to uniquely identify a row of table
-        There are only one primaryKey in table and the values can not be null
+    * primaryKey: is 1/many column in a table which must contain a unique value 
+     which can be used to uniquely identify a row of table. There are only one 
+     primaryKey in table and the values can not be null
+     
     * foreignKey: foreignKey of one table will point to primaryKey of another table. It means all the values in foreignKey columns need to be appear in 
         primaryKey colunns of another table
-
+        
     * uniqueKey: is 1/many of a column that uniquely indentify a row of table
 
 =Transaction=
