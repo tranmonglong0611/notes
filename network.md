@@ -62,3 +62,12 @@ REST (REpresentational State Transfer) is basically an architectural style of de
 It should return the result only in the form of JSON or XML, atom, OData etc. (lightweight data )
 REST based services follow some of the above principles and not all
 RESTFUL services means it follows all the above principles.
+
+## HTTP METHOD
+Method | Impoditent | Safe
+-------|----------- | ----
+GET    |YES | YES 
+POST   |NO  | NO 
+PUT    |YES | NO 
+PATCH  |NO  | NO 
+DELETE |YES | NO 

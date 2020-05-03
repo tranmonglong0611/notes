@@ -1,5 +1,15 @@
 ## Process
-A program during execution
+- A program during execution
+- A program is loaded into memory. And CPU read instruction to execute it...
+
+## I/O
+- I/O need to use the CPU
+- https://stackoverflow.com/questions/13596997/why-is-the-cpu-not-needed-to-service-i-o-requests
+- Multi thread is good if program have many I/O
+
+## Fork() and Wait()
+- https://stackoverflow.com/questions/15102328/how-does-fork-work
+![Alt text](images/fork.png "Title")
 
 ## Heap vs Stack:
 ### Heap
